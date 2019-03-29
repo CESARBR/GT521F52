@@ -12,6 +12,22 @@
 *.map
 *.exp
 
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+/.eggs
+
 # Precompiled Headers
 *.gch
 *.pch
@@ -41,6 +57,7 @@
 *.su
 *.idb
 *.pdb
+test_env
 
 # Kernel Module Compile Results
 *.mod*

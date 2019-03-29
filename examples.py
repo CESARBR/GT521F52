@@ -5,8 +5,8 @@ try:
     p = GT_521F52.PyFingerprint_GT_521F52('/dev/ttyUSB0')
 
 except Exception as e:
-        print("Something went wrong")
-        print('Exception message: ' + str(e))
+    print("Something went wrong")
+    print('Exception message: ' + str(e))
 
 
 try:
@@ -17,6 +17,6 @@ try:
     pos = p.IdentifyUser()
     if(pos):
         print("Your finger was found at " + str(pos))
-    #For other functions simply check the datasheet and the api
+    # For other functions simply check the datasheet and the api
 except Exception as e:
-        print('Exception message: ' + str(e))
+    print('Exception message: ' + str(e))

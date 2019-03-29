@@ -1,39 +1,33 @@
-# GT521F52
+# GT_521F52
 
 This is a library for working with the ADH-Tech GT521F52 fingerprint scanner.
 
-GETTING STARTED:
+## GETTING STARTED
 
 Clone this repository into your projects folder and import the GT-521F52 module
 to your application. The project is well documented, but if there are any doubts
-feel free to contact. The examples.py shows a few examples of how to use the API.
+feel free to contact. The [examples.py](examples.py) shows a few examples of how to use the API.
 
-PRE-REQUISITES AND INSTALLING:
+### PRE-REQUISITES AND INSTALLING:
 
 Your system must be running linux with stty installed and have the python3 interpreter.
 
-You should also install the following (if not installed) packages wit pip3: os, serial, struct, time and logging. 
+To install GT_521F52 simply run:
 
-Note: os, struct, time and logging should already be installed (by default) in your python3 install.
+    pip3 install GT_521F52
 
-To install pyserial simply run:
-
-    pip3 install pyserial
-
-I am currently running pyserial version 3.4
-
-
-CONTRIBUTING:
+## CONTRIBUTING
 
 Fell free to contribute to our project but please read our CONTRIBUTING.md for details of our code of conduct.
 
-AUTHORS:
+## AUTHORS
 
-    - Lucas Costa Cabral 
+- Lucas Costa Cabral
 
-LICENSE:
+## LICENSE
 
-For information aboute license read our LICENSE doc.
+This project is under Apache License 2.0 license. For information about [license read our LICENSE doc](LICENSE).
 
-ACKNOWLEDGEMENST:
-    - Eronides Neto
+## ACKNOWLEDGEMENTS
+
+- Eronides Neto
