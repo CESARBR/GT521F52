@@ -18,7 +18,7 @@ requirements = [
 ]
 
 setup(
-    name='GT_521F52 Library',
+    name='GT_521F52',
     version="1.0.0",
     description='Python ADH-Tech GT521F52 library',
     long_description=description,
