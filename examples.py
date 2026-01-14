@@ -1,4 +1,4 @@
-import GT_521F52
+from GT_521F52 import GT_521F52
 import time
 
 try:
